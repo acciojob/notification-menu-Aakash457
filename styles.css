@@ -1,1 +1,56 @@
-/*  your css code here. If applicable */
+#container {
+  width: 280px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+#container h1 {
+  margin: 0 0 10px 0;
+}
+
+.notification {
+  margin: 0 10px 10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+  display: flex;
+  position: relative;
+}
+
+.notification img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.notification p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.notification .user {
+  font-weight: bold;
+}
+
+.notification .time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  font-weight: normal;
+  font-size: 12px;
+  font-style: italic;
+}
+
+#container button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+
+  background-color: #02203c;
+  color: white;
+}
